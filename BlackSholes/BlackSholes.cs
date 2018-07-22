@@ -27,7 +27,7 @@ namespace BlackSholes
             return result;
         }
 
-        public double gauss(double x)
+        private double gauss(double x)
         {
             double sum = 0;
             double a = -10;
